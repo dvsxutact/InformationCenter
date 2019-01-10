@@ -1,0 +1,17 @@
+﻿<div id="tabs">
+    <div class="container-fluid" style="padding-top: 20px;">
+        <div id="tab" class="row">
+            <div class="col-md-12 tabColumn">
+                <button id="btnHome" class="tablink btn" data-controller="Users" data-action="Index">Home</button>
+                @*<button id="btnEditProfile" class="tablink btn" data-controller="Users" data-action="EditProfile">Edit Profile</button>*@
+                <button id="btnShipVisitRequest" class="tablink btn" data-controller="Users" data-action="NewRequest">Vehicles</button>
+                <button id="btnStatus" class="tablink btn" data-controller="Users" data-action="Status">Reports</button>
+                
+            </div>
+        </div>
+
+        <div id="tabcontent" class="row" style="margin:15px;">
+            @*@Html.Action("Index", "Users")*@
+        </div>
+    </div>
+</div>
